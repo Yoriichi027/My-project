@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random number generator</title>
+    <link rel="stylesheet" href="/ranfo.css">
+</head>
+<body>
+    <div class="outer">
+        <div class="inner">
+            <div class="top">
+                <input type="text" placeholder="Generator Your Random Number" id="randomValue" class="box" >
+                <img id="eyeIcon" src="/img/hide-regular-24.png" alt="" onclick="toggleVisibility()" >
+            </div>
+            <div class="bottom">
+                <button onclick="generateRandomNumber()">Generate</button>
+                <button onclick="copyToClipboard()">Copy</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/rando.js"></script>
+</body>
+</html>
